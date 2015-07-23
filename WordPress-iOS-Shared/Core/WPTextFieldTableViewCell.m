@@ -64,7 +64,11 @@ CGFloat const iPhoneRightMargin = 50.0f;
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    [self.textField becomeFirstResponder];
+    if (self.textField.enabled) {
+        [self.textField becomeFirstResponder];
+    } else {
+        [super touchesBegan:touches withEvent:event];
+    }
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
