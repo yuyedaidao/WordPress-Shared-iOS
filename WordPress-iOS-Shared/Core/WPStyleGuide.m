@@ -378,6 +378,14 @@
     cell.detailTextLabel.textColor = [self grey];
 }
 
++ (void)configureTableViewBlogCell:(UITableViewCell *)cell
+{
+    [self configureTableViewCell:cell];
+    cell.detailTextLabel.font = [self subtitleFont];
+    cell.detailTextLabel.textColor = [self greyDarken10];
+    cell.backgroundColor = [self lightGrey];
+}
+
 + (void)configureTableViewSmallSubtitleCell:(UITableViewCell *)cell
 {
     [self configureTableViewCell:cell];

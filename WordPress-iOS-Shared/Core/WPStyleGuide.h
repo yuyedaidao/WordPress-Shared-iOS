@@ -65,6 +65,7 @@
 + (void)configureColorsForView:(UIView *)view andTableView:(UITableView *)tableView;
 + (void)configureColorsForView:(UIView *)view collectionView:(UICollectionView *)collectionView;
 + (void)configureTableViewCell:(UITableViewCell *)cell;
++ (void)configureTableViewBlogCell:(UITableViewCell *)cell;
 + (void)configureTableViewSmallSubtitleCell:(UITableViewCell *)cell;
 + (void)configureTableViewActionCell:(UITableViewCell *)cell;
 + (void)configureTableViewDestructiveActionCell:(UITableViewCell *)cell;
