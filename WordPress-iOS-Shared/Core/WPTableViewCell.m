@@ -4,6 +4,7 @@ CGFloat const WPTableViewFixedWidth = 600;
 
 @implementation WPTableViewCell
 
+#if FALSE
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
@@ -41,5 +42,6 @@ CGFloat const WPTableViewFixedWidth = 600;
         self.frame = frame;
     }
 }
+#endif
 
 @end

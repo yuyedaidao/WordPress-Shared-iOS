@@ -11,6 +11,7 @@
 
 
 @implementation WPTableViewSectionHeaderFooterView
+#if FALSE
 
 - (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -237,5 +238,6 @@
 {
     return [WPStyleGuide subtitleFont];
 }
+#endif
 
 @end

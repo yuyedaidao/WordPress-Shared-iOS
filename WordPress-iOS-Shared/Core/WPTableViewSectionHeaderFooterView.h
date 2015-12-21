@@ -26,6 +26,7 @@ typedef NS_ENUM(NSInteger, WPTableViewSectionStyle)
 __deprecated_msg("Use +[WPStyleGuide configureTableViewSectionHeader:] from the table view delegate instead")
 @interface WPTableViewSectionHeaderFooterView : UITableViewHeaderFooterView
 
+#if FALSE
 @property (nonatomic, assign, readonly) WPTableViewSectionStyle style;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) UIColor *titleColor;
@@ -70,4 +71,5 @@ __deprecated_msg("Use +[WPStyleGuide configureTableViewSectionHeader:] from the 
 
 + (CGFloat)heightForText:(NSString *)text width:(CGFloat)width titleInsets:(UIEdgeInsets)titleInsets font:(UIFont *)font;
 
+#endif
 @end
