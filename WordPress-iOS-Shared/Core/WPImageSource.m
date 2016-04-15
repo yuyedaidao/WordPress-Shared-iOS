@@ -93,7 +93,8 @@ NSString * const WPImageSourceErrorDomain = @"WPImageSourceErrorDomain";
                 }
                 NSError *readError;
                 NSData *data = [NSData dataWithContentsOfURL:location options:NSDataReadingUncached error:&readError];
-                UIImage *image = [UIImage imageWithData:data];
+                CGFloat screenScale = [[UIScreen mainScreen] scale];
+                UIImage *image = [UIImage imageWithData:data scale:screenScale];
                 if (!image) {
                     [self downloadSucceededWithNilImageForURL:url response:response];
                     return;
