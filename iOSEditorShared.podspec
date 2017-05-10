@@ -9,10 +9,9 @@ Pod::Spec.new do |s|
                    This is the first step required to build WordPress-iOS with UI components.
                    DESC
 
-  s.homepage     = "http://apps.wordpress.com"
+  s.homepage     = "https://github.com/yuyedaidao/WordPress-Shared-iOS"
   s.license      = "GPLv2"
   s.author             = { "Automattic" => "mobile@automattic.com", "Aaron Douglas" => "astralbodies@gmail.com", "Diego Rey Mendez" => "diegoreymendez@gmail.com", "Sergio Estevao" => "sergioestevao@gmail.com" }
-#s.social_media_url   = "http://twitter.com/WordPressiOS"
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/yuyedaidao/WordPress-Shared-iOS.git", :tag => s.version.to_s }
   s.source_files = 'WordPress-iOS-Shared/Core/*.{h,m,swift}', 'WordPress-iOS-Shared/Private/*.{h,m,swift}'
