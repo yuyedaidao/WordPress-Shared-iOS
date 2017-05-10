@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21FE0BD31EC2C69C001DE002 /* iOSEditorShared.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 21FE0BD21EC2C69C001DE002 /* iOSEditorShared.podspec */; };
 		43333D7D7E2FC4CAFFD1E37C /* Pods_WordPressShared_WordPress_iOS_SharedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBFD642721FF831D13984A8 /* Pods_WordPressShared_WordPress_iOS_SharedTests.framework */; };
 		57D61970C6137245AD269A69 /* Pods_WordPressShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475F36C21B3378AB55630D09 /* Pods_WordPressShared.framework */; };
 		931A0FFC192A9CDD00D3CC11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931A0FFB192A9CDD00D3CC11 /* XCTest.framework */; };
@@ -60,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21FE0BD21EC2C69C001DE002 /* iOSEditorShared.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOSEditorShared.podspec; sourceTree = "<group>"; };
 		475F36C21B3378AB55630D09 /* Pods_WordPressShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordPressShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FFC900720448EAC39FDA2E /* Pods-WordPressShared-WordPress-iOS-SharedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordPressShared-WordPress-iOS-SharedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordPressShared-WordPress-iOS-SharedTests/Pods-WordPressShared-WordPress-iOS-SharedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		598E770C1A8E3D1A0020DC05 /* WPDeviceIdentification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPDeviceIdentification.h; path = Core/WPDeviceIdentification.h; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 		FF14587B1CBE6D24004A5A0B /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				21FE0BD21EC2C69C001DE002 /* iOSEditorShared.podspec */,
 				FF1458801CBE6D59004A5A0B /* WordPress-iOS-Shared.podspec */,
 				FF14587C1CBE6D37004A5A0B /* README.md */,
 				FF14587D1CBE6D37004A5A0B /* Podfile */,
@@ -449,6 +452,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FE0BD31EC2C69C001DE002 /* iOSEditorShared.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +486,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7F5C73EF3AEE512678A4C3FD /* [CP] Embed Pods Frameworks */ = {
@@ -512,7 +516,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DB87001A33C367CF193D979D /* [CP] Copy Pods Resources */ = {

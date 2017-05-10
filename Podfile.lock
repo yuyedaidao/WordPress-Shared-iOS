@@ -7,20 +7,20 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.2.0):
     - CocoaLumberjack/Default
-  - OCMock (3.2.2)
-  - OHHTTPStubs (5.0.0):
-    - OHHTTPStubs/Default (= 5.0.0)
-  - OHHTTPStubs/Core (5.0.0)
-  - OHHTTPStubs/Default (5.0.0):
+  - OCMock (3.4)
+  - OHHTTPStubs (6.0.0):
+    - OHHTTPStubs/Default (= 6.0.0)
+  - OHHTTPStubs/Core (6.0.0)
+  - OHHTTPStubs/Default (6.0.0):
     - OHHTTPStubs/Core
     - OHHTTPStubs/JSON
     - OHHTTPStubs/NSURLSession
     - OHHTTPStubs/OHPathHelpers
-  - OHHTTPStubs/JSON (5.0.0):
+  - OHHTTPStubs/JSON (6.0.0):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/NSURLSession (5.0.0):
+  - OHHTTPStubs/NSURLSession (6.0.0):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/OHPathHelpers (5.0.0)
+  - OHHTTPStubs/OHPathHelpers (6.0.0)
 
 DEPENDENCIES:
   - CocoaLumberjack (~> 2.2.0)
@@ -29,9 +29,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
-  OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
-  OHHTTPStubs: a5d2e9eea07869d42ec03338325f398bc520e159
+  OCMock: 35ae71d6a8fcc1b59434d561d1520b9dd4f15765
+  OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
 
 PODFILE CHECKSUM: 46d460b6eed2ea3cb4fb765997567d00287217de
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
